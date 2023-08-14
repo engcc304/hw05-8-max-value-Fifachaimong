@@ -28,19 +28,16 @@ int main(){
     printf("Test case:\n");
     scanf("%d %d %d",&a ,&b ,&c);
     printf("Output:\n");
+    printf("1st Number = %d\n",a);
+    printf("2nd Number = %d\n",b);
+    printf("3rd Number = %d\n",c);
 
     if (a > b && a > c)
     {if (c > b){
-        printf("1st Number = %d\n",a);
-        printf("2st Number = %d\n",b);
-        printf("3st Number = %d\n",c);
         printf("The 1rd Number is the greatest among three");
     }    
     }if(c > a && c > b)
     {if (b > a){
-        printf("1st Number = %d\n",a);
-        printf("2st Number = %d\n",b);
-        printf("3st Number = %d\n",c);
         printf("The 3rd Number is the greatest among three");
     }
     }
